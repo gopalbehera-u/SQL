@@ -1,0 +1,132 @@
+-- SHOW databases;
+-- USE sqlpractice;
+
+
+-- SHOW tables;
+-- CREATE TABLE students (
+--     STUDENT_ID INT,
+--     NAME VARCHAR(10),
+--     AGE INT,
+--     COURSE VARCHAR(50),
+--     MARKS INT,
+--     CITY VARCHAR(50)
+-- )
+
+
+-- INSERT INTO students VALUES
+-- (1,"RAHUL",34,"PYTHON",110,"BANG","45555328"),
+-- (2,"ROHIT",38,"JAVA",264,"MUM","7588484"),
+-- (3,"VIRAT",37,"SQL",189,"DEL","89202922");
+
+-- SELECT * FROM students;
+
+
+-- ALTER TABLE students ADD EMAIL VARCHAR(100);
+
+-- SELECT * FROM students;
+
+-- UPDATE students SET EMAIL='RAHUL@1GMAIL.COM' WHERE STUDENT_ID=1;
+
+-- UPDATE students SET EMAIL="ROHIT@45GAMIL.COM" WHERE STUDENT_ID=2;
+-- UPDATE students SET EMAIL ='VIRAT@18GMAIL.COM' WHERE STUDENT_ID=3;
+
+-- SELECT * FROM students;
+
+-- SELECT STUDENT_ID , NAME,EMAIL FROM students;
+
+
+-- ALTER TABLE students ADD PHONE VARCHAR(15);
+
+
+-- UPDATE students SET PHONE='157573930' WHERE STUDENT_ID=1;
+-- UPDATE students SET PHONE='456771911' WHERE STUDENT_ID=2;
+-- UPDATE students SET PHONE='186792920' WHERE STUDENT_ID=3;
+
+-- SELECT * FROM students;
+
+
+-- SELECT STUDENT_ID , NAME,PHONE FROM students;
+
+
+-- UPDATE students SET EMAIL='VIRAT3@GMAIL.COM',PHONE='99999999' WHERE STUDENT_ID=3; 
+
+-- SELECT * FROM students;
+
+-- SELECT STUDENT_ID,NAME,EMAIL,PHONE FROM students;
+
+
+-- UPDATE STUDENTS SET MARKS=MARKS+5 WHERE STUDENT_ID=1;
+
+
+-- SELECT STUDENT_ID,NAME,MARKS FROM students;
+
+
+-- UPDATE students SET COURSE="DATA ANALYST" WHERE STUDENT_ID=2;
+
+
+-- SELECT * FROM students;
+
+-- SELECT STUDENT_ID,NAME,COURSE FROM students;
+
+
+-- DELETE FROM STUDENTS WHERE STUDENT_ID=3;
+
+-- SELECT * FROM students;
+
+-- DELETE  FROM STUDENTS PHONE;
+--  SELECT * FROM students;
+
+
+-- SELECT * FROM students;
+
+-- INSERT INTO STUDENTS (STUDENT_ID, NAME, AGE, COURSE, MARKS, CITY, EMAIL)
+-- VALUES
+-- (1, 'Rahul', 20, 'SQL', 75, 'Delhi', 'rahul@gmail.com'),
+-- (2, 'Rohit', 21, 'Data Analytics', 82, 'Mumbai', 'rohit@gmail.com'),
+-- (3, 'Virat', 22, 'Python', 90, 'Bangalore', 'virat@gmail.com');
+
+-- SELECT * from students;
+
+-- UPDATE students set PHONE="56666" WHERE STUDENT_ID=1;
+-- UPDATE students SET PHONE ="456788" WHERE STUDENT_ID=2;
+-- UPDATE students SET PHONE="67828" WHERE STUDENT_ID=3;
+
+
+-- SELECT * FROM students;
+
+-- ALTER TABLE students drop column PHONE;
+
+
+-- SELECT * FROM students;
+
+-- ALTER TABLE students ADD GENDER VARCHAR(10);
+
+-- UPDATE students SET GENDER ='MALE' WHERE STUDENT_ID=1;
+-- UPDATE students SET GENDER='MALE' WHERE STUDENT_ID=2;
+-- UPDATE students SET GENDER='MALE' WHERE STUDENT_ID=3;
+
+
+-- SELECT STUDENT_ID,NAME,GENDER FROM students;
+
+-- DELETE FROM STUDENTS WHERE STUDENT_ID=2;
+
+
+-- SELECT * FROM students;
+
+
+-- CREATE TABLE IF NOT EXISTS TEMP_STUDENTS(
+--     ID INT,
+--     NAME VARCHAR(30)
+-- );
+
+
+-- INSERT INTO TEMP_STUDENTS VALUES
+-- (1,"AMAN"),
+-- (2,"RAHUL");
+
+
+-- SELECT * FROM temp_students;
+
+-- TRUNCATE TABLE temp_students;
+
+-- SELECT * FROM temp_students;
