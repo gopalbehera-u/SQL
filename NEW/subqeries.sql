@@ -219,9 +219,9 @@
 
 
 
-SELECT EmployeeName,
-       Salary,
-       DENSE_RANK() OVER(
-           ORDER BY Salary DESC
-       ) AS drnk
-FROM employes;
+-- SELECT EmployeeName,
+--        Salary,
+--        DENSE_RANK() OVER(
+--            ORDER BY Salary DESC
+--        ) AS drnk
+-- FROM employes;
