@@ -199,11 +199,22 @@
 -- WHERE Salary >80000)
 
 
-SELECT EmployeeName,DepartmentID,salary FROM employes
+-- SELECT EmployeeName,DepartmentID,salary FROM employes
 
-WHERE DepartmentID IN (
+-- WHERE DepartmentID IN (
 
-SELECT DepartmentID FROM employes
-WHERE Salary >60000
-GROUP BY DepartmentID HAVING count(*)>=2
-)
+-- SELECT DepartmentID FROM employes
+-- WHERE Salary >60000
+-- GROUP BY DepartmentID HAVING count(*)>=2
+-- )
+
+
+-- SELECT EmployeeName,DepartmentID,Salary FROM employes
+
+-- WHERE DepartmentID in (
+
+-- SELECT DepartmentID FROM employes
+-- GROUP BY DepartmentID HAVING avg(Salary)>70000)
+
+
+SELECT * FROM employes
