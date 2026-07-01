@@ -1,0 +1,57 @@
+-- SHOW databases
+-- use nit
+-- SHOW tables
+-- SELECT * FROM student
+-- SELECT * FROM cust WHERE name like "%s%"
+-- SELECT * FROM cust WHERE name like "i%"
+-- SELECT * FROM cust WHERE name like "%s"
+-- SELECT * FROM cust WHERE name like '%t'
+-- SELECT * FROM cust WHERE name like "%a%"
+-- SELECT * FROM cust WHERE name like "___a"  before a 
+-- SELECT * FROM cust WHERE name like "a__"  after a 
+-- SELECT * FROM cust WHERE name like "%a__"
+-- SELECT * FROM cust WHERE name like '[aeiou]'
+-- SELECT * FROM cust WHERE name not  like '[aeiuo]%'
+-- SELECT *FROM cust WHERE name like '[a-p]%'
+-- SELECT *FROM cust WHERE name not  like '[a-p]%'
+-- SELECT * FROM cust WHERE der like "_____10___"
+-- SELECT * FROM cust WHERE der like "%10%"
+-- SELECT * FROM cust WHERE der like "%-10-%"
+-- SELECT * FROM cust WHERE der like "2020-%-%"
+-- SELECT * FROM cust WHERE der like "2020%"
+-- SELECT * FROM cust  WHERE mark is NULL
+-- SELECT * FROM cust  WHERE der is NULL
+-- SELECT * FROM cust WHERE der is NOT NULL
+-- CREATE TABLE EMP
+-- (
+-- EMPNO     SMALLINT ,
+-- ENAME     VARCHAR(10),
+-- JOB     VARCHAR(9),
+-- MGR     NUMERIC(4),
+-- HIREDATE DATE,
+-- SAL     DECIMAL(10,2),
+-- COMM     DECIMAL(10,2),DEPTNO TINYINT)
+--  COMM DECIMAL(10,2),
+-- INSERT INTO EMP VALUES
+-- (7369, 'SMITH', 'CLERK', 7902, '1980-12-17', 800, NULL, 20)
+-- INSERT INTO EMP VALUES
+-- (7499, 'ALLEN', 'SALESMAN', 7698, '1981-02-20', 1600, 300, 30)
+-- INSERT INTO EMP VALUES
+-- (7521, 'WARD', 'SALESMAN', 7698, '1981-02-22', 1250, 500, 30)
+-- INSERT INTO EMP VALUES
+-- (7566, 'JONES', 'MANAGER', 7839, '1981-02-04', 2975, NULL, 20)
+-- INSERT INTO EMP VALUES
+-- (7654, 'MARTIN', 'SALESMAN', 7698, '1981-09-28', 1250, 1400, 30)
+-- INSERT INTO EMP VALUES
+-- (7698, 'BLAKE', 'MANAGER', 7839, '1981-01-05', 2850, NULL, 30)
+-- INSERT INTO EMP VALUES
+-- (7782, 'CLARK', 'MANAGER', 7839, '1981-09-06', 2450, NULL, 10)
+-- INSERT INTO EMP VALUES
+-- (7788, 'SCOTT', 'ANALYST', 7566, '1982-09-12', 3000, NULL, 20),
+-- (7839, 'KING', 'PRESIDENT', NULL, '1981-11-17', 5000, NULL, 10),
+-- (7844, 'TURNER', 'SALESMAN', 7698, '1981-08-09', 1500, 0, 30),
+-- (7876, 'ADAMS', 'CLERK', 7788, '1983-12-01', 1100, NULL, 20),
+-- (7900, 'JAMES', 'CLERK', 7698, '1981-03-12', 950, NULL, 30),
+-- (7902, 'FORD', 'ANALYST', 7566, '1981-03-12', 3000, NULL, 20),
+-- (7934, 'MILLER', 'CLERK', 7782, '1982-01-23', 1300, NULL, 10)
+SELECT * FROM emp
